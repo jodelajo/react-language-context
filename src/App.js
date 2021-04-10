@@ -9,8 +9,12 @@ import Home from './pages/home/Home';
 import AboutUs from './pages/aboutUs/AboutUs';
 import AllPlants from './pages/allPlants/AllPlants';
 
+
 function App() {
+
+
   return (
+
     <Router>
         <Header />
         <Switch>
@@ -25,6 +29,8 @@ function App() {
           </Route>
         </Switch>
     </Router>
+
+
   );
 }
 
