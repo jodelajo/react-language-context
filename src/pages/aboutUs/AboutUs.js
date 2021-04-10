@@ -8,10 +8,10 @@ function AboutUs() {
     console.log(activeLanguage)
   return (
     <div className="page-container">
-      <h2>{content.[activeLanguage].aboutUs.title}</h2>
+      <h2>{content[activeLanguage].aboutUs.title}</h2>
       {/*<p>Dit is je profielpagina!</p>*/}
       <img src={writers} alt="Bob & Betsy"/>
-      <p>{content.[activeLanguage].aboutUs.writers}</p>
+      <p>{content[activeLanguage].aboutUs.writers}</p>
     </div>
   );
 }

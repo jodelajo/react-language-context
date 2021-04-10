@@ -28,5 +28,5 @@ function LanguageContextProvider({ children }) {
             { children }
         </LanguageContext.Provider>
     )
-};
+}
 export default LanguageContextProvider;

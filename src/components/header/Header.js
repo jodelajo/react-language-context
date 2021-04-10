@@ -19,16 +19,16 @@ function Header() {
           <ul>
             <li>
               <NavLink exact to="/about-us">
-                {content.[activeLanguage].header.menuItems.aboutUs}
+                {content[activeLanguage].header.menuItems.aboutUs}
               </NavLink>
             </li>
             <li>
               <NavLink exact to="/all-plants">
-                {content.[activeLanguage].header.menuItems.allPlants}
+                {content[activeLanguage].header.menuItems.allPlants}
               </NavLink>
               </li>
             <li className="language-switch">
-              <p>{content.[activeLanguage].header.changeTo}</p>
+              <p>{content[activeLanguage].header.changeTo}</p>
 
               {activeLanguage === 'nl' ?
                   <button type="button" onClick={getESFunction}><FlagES/></button>
@@ -41,7 +41,7 @@ function Header() {
 
           <img src={headerImage} alt="Header image plants" className="header-image" />
 
-          <h1>{content.[activeLanguage].header.title}</h1>
+          <h1>{content[activeLanguage].header.title}</h1>
         </div>
 
       </header>
