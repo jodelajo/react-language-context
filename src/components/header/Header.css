@@ -18,6 +18,9 @@ nav {
     left: 0;
 }
 
+button {
+   border: none;
+}
 nav ul {
     color: darkgreen;
     list-style-type: none;
